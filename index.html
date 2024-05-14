@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bistro Boss Restaurant</title>
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- Bootstrap CSS Link -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+
+       <!-- Boxicons -->
+       <link
+       rel="stylesheet"
+       href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+     />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid logo">
+        <a class="navbar-brand" href="#"
+          ><img src="./logo/logo.png" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active fs-5 me-3" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active fs-5 me-3" aria-current="page" href="#"
+                >Contact Us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active fs-5 me-3" aria-current="page" href="#"
+                >Dashboard</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active fs-5 me-3" aria-current="page" href="#"
+                >Menu</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active fs-5" aria-current="page" href="#"
+                >Shop</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-danger" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      id="carouselExampleIndicators"
+      style="height: 100vh"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./assets/Rectangle 1.png"
+            style="max-height: 100vh"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./assets/Rectangle 3.jpg"
+            style="max-height: 100vh"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./assets/Retangle 2.jpg"
+            style="max-height: 100vh"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <section class="container">
+      <div>
+        <h3 class="text-center">ORDER ONLINE</h3>
+        <div>
+          <div class="card-group mt-5">
+            <div class="card me-3">
+              <img
+                src="./assets/Rectangle 5.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Bangla Food</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+            <div class="card me-3">
+              <img
+                src="./assets/Rectangle 6.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Indian Food</h5>
+                <p class="card-text">
+                  This card has supporting text below as a natural lead-in to
+                  additional content.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="./assets/Rectangle 7.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Chinase Food</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This card has even longer
+                  content than the first to show that equal height action.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <div
+        class="bg-img p-5 text-center shadow-1-strong rounded mb-5 d-flex align-items-center"
+       
+      >
+        <div class="bg-white text-dark p-5 rounded">
+          <h1 class="mb-3 h2">Bistro Boss</h1>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Necessitatibus, libero accusamus laborum deserunt ratione dolor
+            officiis praesentium! Deserunt magni aperiam dolor eius dolore at,
+            nihil iusto ducimus incidunt quibusdam nemo.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+        <div>
+            <h3 class="text-center">From Our Menu</h3>
+        <div>
+            <div class="row my-5">
+                <div class="col-12 col-md-6">
+                    <div class="d-flex">
+                        <div class="menu-img me-3">
+                            <img src="./assets//Retangle 2.jpg" alt="">
+                        </div>
+                        <div>
+                            <h6>ROAST DUCK BREAST ------------------</h6>
+                            <p>Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce</p>
+                        </div>
+                        <div>
+                            <p>$14.5</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="menu-img me-3">
+                            <img src="./assets//Retangle 2.jpg" alt="">
+                        </div>
+                        <div>
+                            <h6>ROAST DUCK BREAST ------------------</h6>
+                            <p>Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce</p>
+                        </div>
+                        <div>
+                            <p>$14.5</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="menu-img me-3">
+                            <img src="./assets//Retangle 2.jpg" alt="">
+                        </div>
+                        <div>
+                            <h6>ROAST DUCK BREAST ------------------</h6>
+                            <p>Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce</p>
+                        </div>
+                        <div>
+                            <p>$14.5</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="menu-img me-3">
+                            <img src="./assets//Retangle 2.jpg" alt="">
+                        </div>
+                        <div>
+                            <h6>ROAST DUCK BREAST ------------------</h6>
+                            <p>Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce</p>
+                        </div>
+                        <div>
+                            <p>$14.5</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="menu-img me-3">
+                            <img src="./assets//Retangle 2.jpg" alt="">
+                        </div>
+                        <div>
+                            <h6>ROAST DUCK BREAST ------------------</h6>
+                            <p>Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce</p>
+                        </div>
+                        <div>
+                            <p>$14.5</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="d-flex">
+                        <div class="menu-img me-3">
+                            <img src="./assets//Retangle 2.jpg" alt="">
+                        </div>
+                        <div>
+                            <h6>ROAST DUCK BREAST ------------------</h6>
+                            <p>Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce</p>
+                        </div>
+                        <div>
+                            <p>$14.5</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="menu-img me-3">
+                            <img src="./assets//Retangle 2.jpg" alt="">
+                        </div>
+                        <div>
+                            <h6>ROAST DUCK BREAST ------------------</h6>
+                            <p>Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce</p>
+                        </div>
+                        <div>
+                            <p>$14.5</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="menu-img me-3">
+                            <img src="./assets//Retangle 2.jpg" alt="">
+                        </div>
+                        <div>
+                            <h6>ROAST DUCK BREAST ------------------</h6>
+                            <p>Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce</p>
+                        </div>
+                        <div>
+                            <p>$14.5</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="menu-img me-3">
+                            <img src="./assets//Retangle 2.jpg" alt="">
+                        </div>
+                        <div>
+                            <h6>ROAST DUCK BREAST ------------------</h6>
+                            <p>Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce</p>
+                        </div>
+                        <div>
+                            <p>$14.5</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="menu-img me-3">
+                            <img src="./assets//Retangle 2.jpg" alt="">
+                        </div>
+                        <div>
+                            <h6>ROAST DUCK BREAST ------------------</h6>
+                            <p>Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce</p>
+                        </div>
+                        <div>
+                            <p>$14.5</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+
+    <section class="container">
+        <div>
+            <h3 class="text-center">CHEF RECOMMENDS</h3>
+        <div>
+        <div class="card-group my-5">
+            <div class="card me-4">
+              <img style="max-height: 300px;" src="./assets//Rectangle 3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Caeser Salad</h5>
+                <p class="card-text">Lettuce, Eggs, Parmesan Cheese, Chicken Breast Fillets.</p>
+                <button type="button" class="btn btn-primary">Primary</button>
+              </div>
+            </div>
+            <div class="card me-4">
+              <img style="max-height: 300px;"  src="./assets/Rectangle 3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Caeser Salad</h5>
+                <p class="card-text">Lettuce, Eggs, Parmesan Cheese, Chicken Breast Fillets.</p>
+                <button type="button" class="btn btn-primary">Primary</button>
+              </div>
+            </div>
+            <div class="card">
+              <img style="max-height: 300px;"  src="./assets/Rectangle 3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Caeser Salad</h5>
+                <p class="card-text">Lettuce, Eggs, Parmesan Cheese, Chicken Breast Fillets.</p>
+                <button type="button" class="btn btn-primary">Primary</button>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <footer class="bg-dark p-5">
+        <div  class="text-white text-center">
+            <h3 class="text-danger">Bistro Boss Restaurant</h3>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quos nobis ratione?</p>
+        </div>
+        <div class="social-icon text-center">
+            <a href="#" class="text-center p-2 fs-4 bg-danger text-light rounded me-2"> <i class="bx bxl-facebook"></i></a>
+            <a href="#" class="text-center p-2 fs-4 bg-danger text-light rounded me-2"> <i class="bx bxl-instagram-alt"></i></a>
+            <a href="#" class="text-center p-2 fs-4 bg-danger text-light rounded me-2"> <i class="bx bxl-twitter"></i></a>
+            <a href="#" class="text-center p-2 fs-4 bg-danger text-light rounded "> <i class="bx bxl-youtube"></i></a>
+    
+          </div>
+    </footer>
+
+    <!-- Bootstrap JS Link -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
